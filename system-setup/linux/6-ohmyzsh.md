@@ -38,16 +38,16 @@ Re-open your terminal and run the following command to verify everything is stil
 
 <details>
   <summary>
-  Otherwise <strong>CLICK HERE</strong> if you get an error such as:
-  
-  * `zsh: command not found: brew`
+  Otherwise <strong>CLICK HERE</strong> if you get an error such as <code>zsh: command not found: brew</code>
 
   </summary>
   Run the following commands:
 
-- ```echo 'export BREW_HOME="/home/linuxbrew/.linuxbrew/bin"' >> $HOME/.zshrc```
-- ```echo 'export PATH="$PATH:$BREW_HOME"' >> $HOME/.zshrc```
-- ```reset```
+  <ul>
+    <li><code>echo 'export BREW_HOME="/home/linuxbrew/.linuxbrew/bin"' >> $HOME/.zshrc</code></li>
+    <li><code>echo 'export PATH="$PATH:$BREW_HOME"' >> $HOME/.zshrc</code></li>
+    <li><code>reset</code></li>
+  </ul>
 
   Check again for confirmation with the command:
 
