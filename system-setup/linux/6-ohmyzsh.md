@@ -40,7 +40,7 @@ Re-open your terminal and run the following command to verify everything is stil
   <summary>
   Otherwise <strong>CLICK HERE</strong> if you get an error such as:
   
-  `zsh: command not found: brew`
+  ```zsh: command not found: brew```
   </summary>
   Run the following commands:
 
