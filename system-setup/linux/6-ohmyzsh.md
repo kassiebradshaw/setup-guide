@@ -11,7 +11,7 @@ In your terminal, run the following command to install Oh My Zsh:
 - `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 <details>
-  <summary><strong>CLICK HERE</strong> only if you see a message similar to: <img src="../../images/oh-my-zsh-verification.png" />
+  <summary><strong>CLICK HERE</strong> only if you see a message similar to this image: <img src="../../images/oh-my-zsh-verification.png" />
   </summary>
 
   Congratulations! If you see this message in your terminal, it means Oh My Zsh is already installed. Continue to the <a href="./7-node">next page!</a>
@@ -22,6 +22,8 @@ If you don't see a message in your terminal like the one above, continue with th
 **NOTE:** You may get a questions asking if you want to update your terminal to `zsh`. **Select `yes` for this.** If any warnings or errors occur, be sure to complete what is being suggested or get help.
 
 > _AT THIS POINT YOU **`MUST`** RESTART YOUR TERMINAL_
+
+---
 
 ## Confirming Setup
 
