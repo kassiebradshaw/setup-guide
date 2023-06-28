@@ -41,19 +41,22 @@ Re-open your terminal and run the following command to verify everything is stil
   Otherwise <strong>CLICK HERE</strong> if you get an error such as <code>zsh: command not found: brew</code>
 
   </summary>
-  Run the following commands:
+  
 
   <ul>
-    <li><code>echo 'export BREW_HOME="/home/linuxbrew/.linuxbrew/bin"' >> $HOME/.zshrc</code></li>
-    <li><code>echo 'export PATH="$PATH:$BREW_HOME"' >> $HOME/.zshrc</code></li>
-    <li><code>reset</code></li>
-  </ul>
-
-  Check again for confirmation with the command:
-
-  - ```brew --version```
-
-  You should see `Homebrew 3.5` or higher
+    <li>
+      Run the following commands:
+      <ol>
+        <li><code>echo 'export BREW_HOME="/home/linuxbrew/.linuxbrew/bin"' >> $HOME/.zshrc</code></li>
+        <li><code>echo 'export PATH="$PATH:$BREW_HOME"' >> $HOME/.zshrc</code></li>
+        <li><code>reset</code></li>
+      </ol>
+    </li>
+    <li> Check again for confirmation with the command:
+      <ul>
+        <li><code>brew --version</code></li>
+        <li>You should see <code>Homebrew 3.5</code> or higher</li>
+      </ul>
 
   **If you are still getting errors at this point, <a href="../../error/error.md">click here</a> and do not continue with the following steps until you have Oh-My-Zsh properly installed**
 
