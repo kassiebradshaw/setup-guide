@@ -1,4 +1,4 @@
-# Oh-My-Zsh
+# Oh My Zsh
 
 Now it's time to unleash your terminal's potential! In this section we'll update the terminal's look and feel, as well as add some color.
 
@@ -14,7 +14,7 @@ In your terminal, run the following command to install Oh My Zsh:
   <summary><strong>CLICK HERE</strong> only if you see a message similar to: <img src="../../images/oh-my-zsh-verification.png" />
   </summary>
 
-  Congratulations! If you see this message in your terminal, it means Oh-My-Zsh is already installed. Continue to the <a href="./7-node">next page!</a>
+  Congratulations! If you see this message in your terminal, it means Oh My Zsh is already installed. Continue to the <a href="./7-node">next page!</a>
 </details>
 
 If you don't see a message in your terminal like the one above, continue with the setup steps.
@@ -41,7 +41,6 @@ Re-open your terminal and run the following command to verify everything is stil
   Otherwise <strong>CLICK HERE</strong> if you get an error such as <code>zsh: command not found: brew</code>
 
   </summary>
-  
 
   <ul>
     <li>
@@ -57,8 +56,10 @@ Re-open your terminal and run the following command to verify everything is stil
         <li><code>brew --version</code></li>
         <li>You should see <code>Homebrew 3.5</code> or higher</li>
       </ul>
+    </li>
+  </ul>
 
-  **If you are still getting errors at this point, <a href="../../error/error.md">click here</a> and do not continue with the following steps until you have Oh-My-Zsh properly installed**
+  <strong>If you are still getting errors at this point, <a href="../../error/error">click here</a> and do not continue with the following steps until you have Oh My Zsh properly installed.</strong>
 
 </details>
 
